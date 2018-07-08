@@ -1,0 +1,47 @@
+
+footer {
+    height: 10vh;
+    background-color: #6f4763
+}
+
+.x-height {
+    height: 10vh;
+    background-color: #6f4763;
+    margin-bottom: 2vh;
+}
+
+.x1-height {
+    height: 20vh;
+    background-color: #6f4763;
+    margin-bottom: 2vh;
+}
+
+.x2-height {
+    height: 50vh;
+    background-color: #6f4763;
+    margin-bottom: 2vh;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 992px) {
+    .x-height {
+        height: 5vh;
+    }
+
+    .x1-height {
+        height: 10vh;
+    }
+
+    .x2-height {
+        height: 10vh;
+    }
+
+    .article-listing {
+        height: 30vh;
+    }
+}
+
+
