@@ -82,7 +82,7 @@ body > .content > div {
     }
 }
 /*mobile*/
-@media only screen and (max-device-width : 640px) {
+@media only screen and (max-width : 767px) {
     p {
         text-align: center;
     }
