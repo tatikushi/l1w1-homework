@@ -28,8 +28,8 @@ footer {
 }
 
 .row {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media screen and (max-width: 992px) {
@@ -47,6 +47,11 @@ footer {
 
     .article-listing {
         height: 30vh;
+    }
+}
+@media screen and (max-width: 425px) {
+    .article-listing {
+        height: 25vh;
     }
 }
 
