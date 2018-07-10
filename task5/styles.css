@@ -1,6 +1,12 @@
+header {
+    margin-top: 15px;
+}
+
 footer {
     height: 10vh;
-    background-color: #6f4763
+    background-color: #6f4763;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .x-height {
@@ -21,8 +27,9 @@ footer {
     margin-bottom: 2vh;
 }
 
-body {
-    overflow-x: hidden;
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 @media screen and (max-width: 992px) {
