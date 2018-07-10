@@ -51,7 +51,10 @@ footer {
 }
 @media screen and (max-width: 425px) {
     .article-listing {
-        height: 25vh;
+        height: 30vh;
+    }
+    footer{
+        margin-bottom: 10px;
     }
 }
 
