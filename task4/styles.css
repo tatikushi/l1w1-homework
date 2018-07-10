@@ -9,7 +9,16 @@ header {
     color: white;
     margin: 2vw;
     position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.fa-align-justify:before {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
 p {
     display: inline-block;
     width: calc(95%);
@@ -38,6 +47,10 @@ body > .content > div {
 }
 /*tablet*/
 @media (max-width: 1024px) {
+    p  {
+        font-size: 5em;
+    }
+
     .right-icon {
         display: none;
     }
@@ -90,9 +103,10 @@ body > .content > div {
     }
 }
 /*mobile*/
-@media only screen and (max-width : 660px) {
+@media only screen and (max-width:576px) {
     p {
         text-align: center;
+        font-size: 10em;
     }
 
     .right-nav, .left-nav {
