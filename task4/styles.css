@@ -7,7 +7,7 @@ header {
     background-color: #3595ff;
     height: 10vh;
     color: white;
-    margin-bottom: 1vh;
+    margin-bottom: 2vw;
     position: relative;
 }
 p {
@@ -19,8 +19,13 @@ p {
     display: flex;
 }
 
-.left-nav, .right-nav {
+.left-nav {
     display: none;
+    margin-left: 2vw;
+}
+.right-nav {
+    display: none;
+    margin-right: 2vw;
 }
 
 body > .content > div {
@@ -42,11 +47,14 @@ body > .content > div {
         height: 90vh;
         width: 20vw;
         background-color: darkgray;
-        margin-right: 1vw;
+        margin-right: 2vw;
         text-align: center;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .content {
+        margin-right: 2vw;
     }
 }
 /*desctop*/
@@ -61,7 +69,7 @@ body > .content > div {
         height: 90vh;
         width: 20vw;
         background-color: darkgray;
-        margin-right: 1vw;
+        margin-right: 2vw;
         text-align: center;
         display: flex;
         align-items: center;
@@ -75,7 +83,7 @@ body > .content > div {
         background-color: darkgray;
         text-align: center;
         line-height: 100%;
-        margin-left: 1vw;
+        margin-left: 2vw;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -93,5 +101,8 @@ body > .content > div {
 
     .right-icon{
         display: inline-block;
+    }
+    .content{
+        margin-left: 2vw;
     }
 }
